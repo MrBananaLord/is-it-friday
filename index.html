@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Is it Friday?</title>
+</head>
+
+<body>
+    <h1 style="font-size: xxx-large; text-align: center; margin-top: 100px;">Is it Friday?</h1>
+    <h2 id="output" style="font-size: xx-large; text-align: center;"></h2>
+    <script type="text/javascript">
+        if (new Date().getDay() == 5) {
+            document.getElementById("output").innerHTML = "Yes! :)";
+        } else {
+            document.getElementById("output").innerHTML = "No :(";
+        }
+    </script>
+</body>
+
+</html>
